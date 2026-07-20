@@ -1,0 +1,20 @@
+[project]
+name = "research-rag-backend"
+version = "0.1.0"
+description = "A multimodal RAG backend: FastAPI + pgvector + Docling + FlashRank + OpenRouter"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "sqlalchemy>=2.0.30",
+    "asyncpg>=0.29.0",
+    "pgvector>=0.3.0",
+    "pydantic-settings>=2.4.0",
+    "python-multipart>=0.0.9",
+    "httpx>=0.27.0",
+    "docling>=2.0.0",
+    "flashrank>=0.2.8",
+]
+
+[tool.uv]
+package = false
