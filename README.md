@@ -1,4 +1,4 @@
-# Research RAG 
+# RAG 
 
 Upload research PDFs, ask questions, get streamed answers with citations and
 relevant figures — powered by FastAPI, pgvector, Docling, FlashRank, and OpenRouter.
